@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #77aaff 3px solid;
+}
+
+header h1 {
+    text-align: center;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px 0;
+}
+
+#introduction {
+    background: #77aaff;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+#introduction h2 {
+    margin-top: 0;
+}
+
+.skills-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skills-list li {
+    background: #77aaff;
+    color: #fff;
+    margin: 10px;
+    padding: 10px;
+    flex: 1 1 30%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.project {
+    background: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.project h3 {
+    margin-top: 0;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    background: #333;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: #555;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 10px 0 5px;
+}
+
+form input, form textarea, form button {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
